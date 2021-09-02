@@ -1,28 +1,36 @@
-## Welcome to Simeron's Arcade! 🕹👾🎲🎮🃏
+## Book product details page 📚📖🛍🛒
 
-### Random Quote Generator 🔮🃏🎴✨
 
-### Simerons arcade is a series of litte mini applications. Design to help me learn and put all my learnings in one place. The arcade will bit filled with a varity of different types of apps (sorry they aren't all games! 😅) there will some games, calculators, and other everyday essential items that have been transformed with HTML / CSS / JS. I want to use this as a chance to me to upskill in a bitsized fashion and to use my love of design along the way. The design may now always be conventional... But hopefully it will always be with beautiful or fun!
+### To build this 'book product details page' I decided to build it in pure vanilla javascript, as this is what I feel the most comfortable with at the moment. I have built websites with WordPress this is what I have built all of my freelancing websites in. I have also had exposure to vue.js in the past as well, although this was some years ago now. In more recent years I have used react.js. But for the complexity of the task I decided vanilla js would be good.
+
+Please follow the steps below to preview my work and let me know if you have any questions at all.
 
 ### Enjoy!
 
-#### How to use the Random quote generator
+#### How to preview the ‘Book products details page’
 
-1. When you land on the page scroll down to where the 2 tarot style looking cards are 
-2. Click on the card that says - `Todays guidance will be`
-3. This will trigger a quote to appear in the crystal ball above 👏🏽
-4. If you want to share your guidance you can on twitter! Click on the - `Share your guidance` tarot card this will open up a new window where you can share the quote and the author who said it on your twitter (if you are logged in! Otherwise you will be prompted to login)
-5. To start again you can click on - `Todays guidance will be` or fresh the page and follow the steps again.
+1. Visit the follow link where I have hosted the website on netlify
 
-**Where I was inspired:** I have been working through the freecode camp courses for web development. So far I have done the JS section, framesworks, jquery, react and redux. I got to the point where it suggests small apps and projects that you can build and this was the first one. A random quote generator! Ther was a bit of very breif spec to follow but overall you could do whatever you wanted with it. I coded everything myself from scratch on this project, with one bit of help from my mentor. Here is how mine is different:
+Or 
 
-**The theme and showcasing my design skills** All the example I saw online were all based around the same the kind of design. I wanted mine to stand out and have a theme, I thought it would be fun to go with a fortune teller theme. As this would also give me a chance to learn some new CSS skills and showcase my eye for design. 
+1. Clone down this repo
+2. Unzip the folder
+3. Click on the `index.html` file 
+4. This should open the file in your default browser where you can preview the book product details page.
 
-**Accessibility:** You can use this app on mobiles as it scales down perfectly! 
+If you have any issues with either of these methods please do get in contact and I would be more than happy to assist.
 
-![image-of-simerons-arcade](./assets/Screenshot-empty.png)
-![Image of etech-a-sketch](./assets/Screenshot-withquote.png)
-![Image of etech-a-sketch](./assets/Screenshot-tweet.png)
-![Image of etech-a-sketch](./assets/Screenshot-mobileview.png)
+**If I had more time…** Given I had more time to complete this challenge there are a few things I would change / edit / add to future improve this page. There are also a few things in this list which are more reflective based on working on this task:
+
+- I would have like to have found a way to get multiple reviews showing or at least have built in an option for more reviews if they were available
+- Researched future into more book product page designs for an even more intuitive design
+- Go with my gut - I picked a new CSS framework I hadn’t used before I definitely needed more time to experiment with it and try it out before trying to use it on something new. I ended up switching over to one I have use multiple times in the past which took me next to no time and left me thinking why didn’t I do this first… 
+- Have some kind of mock purchase in place maybe, just to go slightly beyond what the product page looks like
+- Redesign the ‘More about this book’ section so that it all ties together a little better
+- Do a bit more on the accessibility side
+- Changed my ID’s to classes
+- Use SCSS
+
+![image-of-final-design-of-book-design-product-page](./progress-images-for-blog/Screenshot-of-final-design.png)
 
 

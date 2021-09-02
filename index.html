@@ -3,23 +3,69 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Random Quote Generator</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Book Product Details page</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="../supadu-task copy/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600&family=Cinzel+Decorative&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,400;0,600;1,100&family=Raleway:ital,wght@0,100;0,400;0,600;1,200&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
-        <h1>WHAT WILL BE YOUR FORTUNE OF THE DAY BE?</h1>
-        <div id="quote-box">
-            <div id="text"></div>
-            <div id="author"></div>
+    <section class="section">
+        <main class="container">
+            <div class="row imageAndInfo">
+                <img class="five columns" id="bookImage" alt="Image of book" />
+                <div class="seven columns bookInfo">
+                    <h1 id="bookTitle"></h1>
+                    <h2 id="bookContributor"></h2>
+                    <div class="purchaseInfo">
+                        <div class="bookReleaseInfo">
+                            <p>Book release date:</p>
+                            <p id="bookSaleDate"></p>
+                        </div>
+                        <p id="bookFormat"></p>
+                        <p id="bookPrice"></p>
+                        <form>
+                            <label for="html">Quantity:</label>
+                            <input type="number">
+                        </form>
+                        <div class="otherRetailersInfo">
+                            <p>Buy from other retailers:</p>
+                            <a class="otherRetailers" id="bookRetailerLinks">Amazon</a>
+                        </div>
+                        <button>Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <hr>
+        <div class="container bookTabInfo">
+
+            <div class="row">
+                <h3>More about this book</h3>
+                <button class="tab tab-1">Book Description</button>
+                <button class="tab tab-2">Book Reviews</button>
+                <button class="tab tab-3 activeTab">About the Author</button>
+
+                <div class="content tab-1 showTab" id="bookDescription"></div>
+                <div class="content tab-2" id="bookReviews"></div>
+                <div class="content tab-3" id=bookContributorBio></div>
+            </div>
         </div>
-        <img id="new-quote" src="./assets/new-quote-card.png">
-        <img id="tweet-quote" src="./assets/tweet-quote-card.png">
-    </div>
+    </section>
 
     <script src="javascript.js"></script>
 </body>

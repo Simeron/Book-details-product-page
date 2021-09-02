@@ -1,0 +1,293 @@
+/* Start - page structure */
+body {
+  background-color: #f6f6f6;
+}
+
+.section {
+  padding: 6rem;
+  margin: 3rem;
+}
+/* End page structure */
+
+/* Start font styles */
+h1 {
+    font-family: 'Bitter', serif;
+    font-size: 34px;
+    letter-spacing: .1rem;
+    padding-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  color: #9e866b;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  padding-bottom: 20px;
+  color: #336b75;
+  font-weight: 600;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+/* End font styles */
+
+/* Start button styles */
+button {
+  display: block;
+  padding: 0px 20px 10px 20px;
+  background-color: #336b75;
+  color: #ffff;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 30px;
+  font-weight: bolder;
+  border: none;
+}
+
+button:hover {
+  background-color: #234A51;
+  color: #ffff;
+}
+
+button:active {
+  background-color: #19353A;
+  color: #ffff;
+}
+
+button:focus {
+  background-color: #19353A;
+  color: #ffff;
+}
+/* End button styles */
+
+/* Start product detials box */
+.imageAndInfo {
+  padding-bottom: 4rem;
+}
+
+#bookImage {
+  padding-top: 3.5rem;
+}
+
+.purchaseInfo {
+  border: grey solid 1px;
+  padding: 24px;
+  max-width: 400px;
+  background-color: #ffff;
+  box-shadow: 10px 10px 10px #c2c2c2;
+}
+
+.purchaseInfo > * {
+  margin: 10px;
+}
+
+#bookPrice {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input {
+  color: #000000;
+}
+
+input:active {
+  color: #000000;
+}
+
+input:focus-within {
+  color: #000000;
+}
+
+
+.bookReleaseInfo {
+  display: flex;
+}
+
+#bookSaleDate {
+  margin-left: 10px;
+}
+
+.otherRetailersInfo {
+  margin: 15px;
+  display: flex;
+}
+
+.otherRetailers {
+  margin-left: 10px;
+}
+/* End product detials page */
+
+hr {
+  border: solid 1px grey;
+}
+
+/* Start full product detials section */
+.bookTabInfo {
+  background-color: #f6f6f6;
+}
+
+.tab {
+  display: inline;
+  background-color: #9e866b;
+}
+
+.tab:hover {
+  background-color: #6E5D4A;
+  color: #ffffff;
+}
+
+.tab:active, :focus{
+  background-color: #3F352A;
+  color: #ffffff;
+}
+
+.tab:focus{
+  background-color: #3F352A;
+  color: #ffffff;
+}
+
+.js-default-hide {
+	position: absolute;
+	visibility: hidden;
+}
+
+.showTab {
+    visibility: visible;
+    background-color: #f6f6f6;
+    padding: 40px;
+    border: grey solid 1px;
+}
+
+.activeTab {
+    border: none;
+}
+
+.content {
+  margin: 30px 10px 40px 10px;
+  width: 100%;
+  box-shadow: 10px 10px 10px #c2c2c2;
+  background-color: #ffffff;
+}
+/* End full product detials section */
+
+/* Responsive */
+@media only screen and (max-width: 1024px) {
+  #bookImage {
+    padding-top: 19rem;
+  }
+}
+
+
+@media only screen and (max-width: 790px) {
+  .section {
+    padding: 4rem 0rem 0rem 0rem;
+    margin: 0;
+  }
+
+  hr {
+    width: 80%;
+  }
+
+  .content {
+    width: 90%;
+    margin-left: -2rem;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  #bookImage {
+    padding-top: 2rem;
+  }
+
+  h1 {
+    padding-top: 2rem;
+  }
+
+  content {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .section {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+
+  h1 {
+    padding: 2rem 0rem 2rem 0rem;
+    margin: 0;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  .image-and-info {
+    padding-bottom: 0;
+  }
+
+  #bookImage {
+    padding-top: 0rem;
+  }
+
+  .content {
+    margin: 0;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    margin-left: 2rem;
+  }
+
+  .section {
+    padding-top: 2.5rem;
+    margin: 0;
+    margin-left: -2rem;
+  }
+
+  .bookReleaseInfo {
+    display: block;
+  }
+
+  .bookReleaseInfo p {
+    margin-bottom: 5px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  #bookSaleDate {
+    margin: 0;
+  }
+
+  .otherRetailersInfo {
+    display: block;
+  }
+
+  .otherRetailers {
+    margin-left: 0;
+  }
+
+  .otherRetailersInfo p {
+    margin-bottom: 5px;
+  }
+
+  .content {
+    margin-left: -1.5rem;
+    width: 85%;
+  }
+
+  .show-tab {
+    padding: 15px;
+  }
+}

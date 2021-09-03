@@ -22,7 +22,7 @@ Or
 
 If you have any issues with either of these methods please do get in contact and I would be more than happy to assist.
 
-**If I had more time…** Given I had more time to complete this challenge there are a few things I would change / edit / add to future improve this page. There are also a few things in this list which are more reflective based on working on this task:
+**If I had more time…** I have tried to hit all of the required items, but... Given I had more time to complete this challenge there are a few things I would change / edit / add to further improve this page. There are also a few things in this list which I would do slightly differently now I am slightly reflecting back on working on this task:
 
 - I would have like to have found a way to get multiple reviews showing or at least have built in an option for more reviews if they were available
 - Researched future into more book product page designs for an even more intuitive design

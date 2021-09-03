@@ -17,7 +17,10 @@ Or
 
 1. Clone down this repo
 2. Unzip the folder
-3. Click on the `index.html` file 
+3. Open text editor of your choice
+4. Open the cloned down repo (https://github.com/Simeron/Book-details-product-page) in your text editor
+5. Open `index.html`, `style.css`, and `javascript.js` to inspect code.
+6. Optional - Click on the `index.html` file from your file directory to open in the browser and preview the page.
 4. This should open the file in your default browser where you can preview the book product details page.
 
 If you have any issues with either of these methods please do get in contact and I would be more than happy to assist.

@@ -11,6 +11,8 @@ Please follow the steps below to preview my work and let me know if you have any
 
 1. Visit the follow link where I have hosted the website on netlify
 
+https://stoic-lalande-a6c973.netlify.app/
+
 Or 
 
 1. Clone down this repo

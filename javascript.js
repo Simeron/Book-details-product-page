@@ -60,6 +60,8 @@ function loadDoc() {
   xhttp.send();
   console.log(xhttp);
 
+}
+
 function loadAllBookContent() {
   loadDoc();
 }
@@ -82,7 +84,7 @@ function defaultHide() {
 	a.forEach(
 		function addClass(info) {
       info.classList.add('js-default-hide');
-      console.log('hide content');
+      console.log('hide content')
 		}
 	)
 }
